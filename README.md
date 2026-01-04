@@ -1,17 +1,17 @@
-### API: Update exchange rates (Google Sheets)
+## API: Update exchange rates (Google Sheets)
 
 The endpoint fetches USD/EUR exchange rates from the NBU API and updates (or inserts) records in the Google Sheets table `exchange_rate`. 
 
 The API is secured with a simple header-based authorization and is deployed on PythonAnywhere as a publicly accessible service.
 
-## Google Sheet with Currency Exchange Rate 
-currency_exchange_sheet  -> [Link] (https://docs.google.com/spreadsheets/d/1Y2arrQ-c-8lcWLX3873g-3MRxkztCtZJLsxc5DJnULY/edit?usp=sharing)
+### Google Sheet with Currency Exchange Rate
+currency_exchange_sheet  -> [Link](https://docs.google.com/spreadsheets/d/1Y2arrQ-c-8lcWLX3873g-3MRxkztCtZJLsxc5DJnULY/edit?usp=sharing)
 
-## Endpoint:
+### Endpoint
 POST https://olhaprysiazhna.pythonanywhere.com/rates/update-range
 
-## Headers:
-X-API-Token  dev_token
+### Headers
+X-API-Token -  dev_token
 
 ### Query Parameters (optional)
 - `update_from` — start date of the period (`yyyy-mm-dd`)
