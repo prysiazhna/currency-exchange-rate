@@ -20,7 +20,7 @@ X-API-Token -  dev_token
 If parameters are not provided, both dates default to the current date.
 
 ### Example
-POST /rates/update-range?update_from=2023-01-02&update_to=2023-01-08
+POST https://olhaprysiazhna.pythonanywhere.com/rates/update-range?update_from=2023-01-02&update_to=2023-01-08
 
 
 ## Main Insights from the Data
